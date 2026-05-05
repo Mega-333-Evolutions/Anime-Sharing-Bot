@@ -63,7 +63,7 @@ AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has bee
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "Hi, I'm alive and ready to store and share files.\n\n<b>⏱ UPTIME : </b>{uptime}"
-USER_REPLY_TEXT = "If you have any problems in the episodes or need any other animes inform it in our group @Animes_Discussion_group"
+USER_REPLY_TEXT = "If you have any problems or need anything kindly report it in our <a href='https://t.me/+lKbsNn0ixhs1Yjk1'>group</a> 👇 https://t.me/+lKbsNn0ixhs1Yjk1"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
