@@ -37,7 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hi {mention}, This bot provides Anime Episodes.\n\nIf you want any other anime then message here 👇 https://t.me/+lKbsNn0ixhs1Yjk1")
+START_MSG = os.environ.get("START_MESSAGE", "Hi {mention}, This bot provides Anime Episodes.\n\nIf you want any other anime then message here 👉 <a href='https://t.me/+lKbsNn0ixhs1Yjk1'>@Animes_Discussion_group</a>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -63,7 +63,7 @@ AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has bee
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "Hi, I'm alive and ready to store and share files.\n\n<b>⏱ UPTIME : </b>{uptime}"
-USER_REPLY_TEXT = "If you have any problems or need anything kindly report it in our <a href='https://t.me/+lKbsNn0ixhs1Yjk1'>group</a> 👇 https://t.me/+lKbsNn0ixhs1Yjk1"
+USER_REPLY_TEXT = "If you have any problems or need anything kindly report it in our group <a href='https://t.me/+lKbsNn0ixhs1Yjk1'>@Animes_Discussion_group</a>
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
